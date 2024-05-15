@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root{
+    --white : hsl(0, 0%, 100%);
+    --dark-gray : hsl(0, 0%, 55%);
+    --vdark-gray : hsl(0, 0%, 41%);
+}
+
+body{
+    margin : 0;
+}
+
+.first-container{
+    background: url("images/page1-bg.jpg");
+    height: 700px;
+    padding : 50px 20px;
+    color : var(--white);
+    font-family: Alata;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.first-container .heading{
+    padding-left: 90px;
+    padding-right: 150px;
+}
+
+.first-container .heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 120;
+
+}
+.first-container .heading2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.first-container header .heading1 a:hover{
+    color:yellow;
+}
+.first-container header .heading2 a:hover{
+    color:yellow;
+}
+
+.first-container header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-container header nav a{
+    margin-left : 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479),
+                 -2px -2px 4px rgba(255, 255, 255, 0.445);
+}
+
+
+.first-container .heading .my-acc a{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.first-container .heading .my-acc a:hover{
+    color:lavenderblush;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);;
+}
+
+.first-container .heading a{
+    color : var(--white);
+    text-decoration: none;
+    font-weight: 100;
+    padding-bottom: 2px;
+}
+
+.first-container .book-now {
+    background-color:crimson; 
+    color:white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: opacity 0.3s ease; 
+}
+
+.first-container .book-now:hover{
+    opacity: 0.9;
+}
+
+.first-container .maldives{ 
+    font-family: 'Lori';
+    margin-top: 50px;
+    font-weight:350;
+    font-size: 4.6em;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                 -2px -2px 4px rgba(255, 255, 255, 0.329);
+}
+
+.first-container .plan{
+    margin-top: 50px;
+    padding-left: 75px;
+    font-size: 1.5em;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-container .icon-text{
+    margin-left: 5px;
+    margin-right: 70px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                -2px -2px 4px rgba(255, 255, 255, 0);
+}
+
+.first-container .tagline{ 
+    font-size: 1.6em;
+    font-family: 'Public Sans', sans-serif;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.978),
+                 -2px -2px 4px rgba(255, 255, 255, 0.008);
+}
+
+.first-container .gesture{ 
+    padding-top: 40px;
+    font-family: 'Satisfy';
+    font-size: 1.9em;
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.978),
+                 -2px -2px 4px rgba(255, 255, 255, 0.084);
+}
+
+.first-container .content{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.first-container .social-media{
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+.first-container .social-media .icon:hover {
+    transform: scale(1.05); 
+    color:yellow; 
+}
+
+
+
+
+.second-container {
+    height: 550px;
+    padding : 100px 50px;
+    background-image: url("images/page2-bg.jpg");
+    background-size: cover;
+}
+
+.second-container img {
+    padding-left: 8px;
+    width: 60%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.second-container .content{
+    background-color: white;
+    width : 50%;
+    z-index: 100;
+    position : relative;
+    left : 50%;
+    bottom : 400px;
+    padding : 10px 40px 50px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.second-container .about{
+    font-size: 2.4em;
+    text-transform : uppercase;
+    font-family: 'Lora'; 
+    font-weight: bold;
+    text-align: center; 
+    color:cornflowerblue;
+}
+
+.second-container .about-content{
+    font-size:1.3em;
+    font-family: Alata;
+    box-sizing: border-box;
+    line-height: 30px;
+    color : black;
+    text-align: center; 
+}
+
+.second-container .icon-text{
+    margin-left: 5px;
+    margin-right: 42px;
+    color: grey;
+}
+
+.second-container .features{
+    margin-top: 50px;
+    padding-left: 50px;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+
+
+
+.third-container {
+    padding : 20px 50px;
+    box-sizing: border-box;
+    background-image: url("images/page3-bg1.jpg");
+    background-size:cover; 
+}
+
+.third-container .row{
+    box-sizing: border-box;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.third-container .row .heading{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2.3em;
+    font-weight: 200;
+    text-shadow: 2px 2px 3px rgba(167, 165, 165, 0.404);
+}
+
+.third-container .images {
+    display: grid;
+    grid-template-columns: repeat(5, 250px); 
+    column-gap: 40px; 
+}
+
+.third-container .images img {
+    max-width: 260px; 
+    max-height: 180px; 
+    object-fit: cover; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.third-container .images .image .title{
+    position: relative;
+    bottom : 125px;
+    left : 30px;
+    color : white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 1.1em;
+    width : 80%;
+    font-weight: bold;
+    text-shadow: 
+        -0.5px -0.5px 0 black,  
+         0.5px -0.5px 0 black,
+        -0.5px  0.5px 0 black,
+         0.5px  0.5px 0 black; 
+    transition-duration: 0.3s ease;
+}
+
+.third-container .images .image:hover{
+    transform: scale(1.15);
+}
+
+
+
+
+.fourth-container {
+    padding : 10px 50px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background-image: url("images/page4-bg1.jpg"); 
+    background-size: cover;
+}
+
+.fourth-container .row{
+    box-sizing: border-box;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.fourth-container .row .heading{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 200;
+    text-shadow: 2px 2px 3px rgba(167, 165, 165, 0.404);
+}
+
+.fourth-container .row button{
+    font-family: Alata;
+    width: max-content;
+    height: max-content;
+    padding : 11px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    border:1px solid black
+}
+
+.fourth-container .images {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    column-gap: 40px;
+}
+
+.fourth-container .images img {
+    max-width: 100%; 
+    max-height: 300px; 
+    object-fit: cover; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.fourth-container .images .image .title{
+    position: relative;
+    text-align: center;
+    color:darkblue;
+    padding-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size : 1.1em;
+    width : 70%;
+    font-weight: bold;
+    transition-duration: 0.3s ease;
+}
+
+.fourth-container .content{
+    text-align: center;
+    margin-top: 5px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.fourth-container .images .image:hover{
+    transform: scale(1.025);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fourth-container .row button:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.fifth-container {
+    padding : 40px 50px;
+    padding-right: 70px;
+    box-sizing: border-box;
+    background-image: url("images/page5-bg.jpg");
+    background-size: cover; 
+}
+
+.fifth-container .row{
+    box-sizing: border-box;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.fifth-container .row .heading{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2.1em;
+    font-weight: 200;
+    text-shadow: 3px 3px 3px rgba(167, 165, 165, 0.404);
+    padding-bottom: 30px;
+}
+
+.fifth-container .row button{
+    font-family: Alata;
+    width: max-content;
+    height: max-content;
+    padding : 11px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.fifth-container .images {
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    grid-auto-rows: 300px;
+    column-gap: 50px;
+    grid-row-gap: 60px;
+}
+
+.fifth-container .images img {
+    max-width: 100%; 
+    max-height: 200px; 
+    object-fit: cover; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.fifth-container .images .image:hover{
+    transform: scale(1.075);
+}
+
+.fifth-container .row button:hover{
+    transform: scale(1.05);
+}
+
+.fifth-container .images .image .title{
+    position: relative;
+    color:white;
+    bottom: 80px;
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size : 1.11em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                -2px -2px 4px rgba(0, 0, 0, 0.892);
+    transition-duration: 0.3s ease;
+}
+
+.fifth-container .content{
+    background-color:white;
+    width : 68%;
+    z-index: 100;
+    position : relative;
+    left : 32%;
+    bottom : 130px;
+    padding : 15px 18px 15px 18px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+}
+
+
+
+.sixth-container{
+    padding : 20px 30px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.sixth-container .content{
+    overflow: hidden; 
+    text-align: center;
+    justify-content: center;
+}
+
+.sixth-container .content .icon-text{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.01em;
+}
+
+.sixth-container .content .contact{
+    float: left;
+    width: 50%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sixth-container .content .follow{
+    float: right;
+    width: 50%; 
+}
+
+.sixth-container .content .follow .icon:hover {
+    transform: scale(1.2); 
+}
+
+.sixth-container .content .contact .icon-text:hover {
+    color: beige; 
+    text-decoration: underline; 
+}
